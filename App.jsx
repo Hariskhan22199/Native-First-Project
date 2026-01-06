@@ -6,6 +6,7 @@ import JSX from './src/components/JSX'
 import OnPress from './src/components/OnPress'
 import UseState from './src/components/UseState'
 import Props from './src/components/Props'
+import InputText from './src/components/InputText'
 const App = () => {
   return (
     <View>
@@ -17,7 +18,8 @@ const App = () => {
         {/* <OnPress/> */}
        
         {/* <UseState/> */}
-        <Props/>
+        {/* <Props/> */}
+        <InputText/>
     </View>
     
   )
