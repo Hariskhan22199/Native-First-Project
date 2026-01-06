@@ -5,6 +5,7 @@ import First from './src/components/First'
 import JSX from './src/components/JSX'
 import OnPress from './src/components/OnPress'
 import UseState from './src/components/UseState'
+import Props from './src/components/Props'
 const App = () => {
   return (
     <View>
@@ -14,7 +15,9 @@ const App = () => {
         {/* <First/> */}
         {/* <JSX/> */}
         {/* <OnPress/> */}
-        <UseState/>
+       
+        {/* <UseState/> */}
+        <Props/>
     </View>
     
   )
