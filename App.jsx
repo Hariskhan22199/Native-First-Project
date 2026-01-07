@@ -7,10 +7,11 @@ import OnPress from './src/components/OnPress'
 import UseState from './src/components/UseState'
 import Props from './src/components/Props'
 import InputText from './src/components/InputText'
+import FlatListScreen from './src/components/FlatListScreen'
 const App = () => {
   return (
     <View>
-      <Text style={{fontSize: 40, fontWeight: 'bold', color: 'blue'}}>React Native App Developer</Text>
+      <Text >React Native App Developer</Text>
       <Text style={{fontSize: 20, }}>Muhammad Haris Khan</Text>
       {/* <Button title='press here' onPress={() => alert('Button pressed')} /> */}
         {/* <First/> */}
@@ -19,7 +20,8 @@ const App = () => {
        
         {/* <UseState/> */}
         {/* <Props/> */}
-        <InputText/>
+        {/* <InputText/> */}
+        <FlatListScreen/>
     </View>
     
   )
