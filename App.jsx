@@ -9,11 +9,12 @@ import Props from './src/components/Props'
 import InputText from './src/components/InputText'
 import FlatListScreen from './src/components/FlatListScreen'
 import SectionListScreen from './src/components/SectionListScreen'
+import LoginForm from './src/components/LoginForm'
 const App = () => {
   return (
     <View>
-      <Text >React Native App Developer</Text>
-      <Text style={{fontSize: 20, }}>Muhammad Haris Khan</Text>
+      
+      {/* <Text style={{fontSize: 20, }}>Muhammad Haris Khan</Text> */}
       {/* <Button title='press here' onPress={() => alert('Button pressed')} /> */}
         {/* <First/> */}
         {/* <JSX/> */}
@@ -23,7 +24,9 @@ const App = () => {
         {/* <Props/> */}
         {/* <InputText/> */}
         {/* <FlatListScreen/> */}
-        <SectionListScreen/>
+        {/* <SectionListScreen/> */}
+        <LoginForm/>
+
     </View>
     
   )
