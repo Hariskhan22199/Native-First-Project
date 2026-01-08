@@ -10,6 +10,7 @@ import InputText from './src/components/InputText'
 import FlatListScreen from './src/components/FlatListScreen'
 import SectionListScreen from './src/components/SectionListScreen'
 import LoginForm from './src/components/LoginForm'
+import ContactListScreen from './src/components/screen/Contact/ContactListScreen'
 const App = () => {
   return (
     <View>
@@ -25,7 +26,7 @@ const App = () => {
         {/* <InputText/> */}
         {/* <FlatListScreen/> */}
         {/* <SectionListScreen/> */}
-        <LoginForm/>
+       <ContactListScreen/>
 
     </View>
     
