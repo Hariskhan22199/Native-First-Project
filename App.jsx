@@ -12,9 +12,10 @@ import SectionListScreen from './src/components/SectionListScreen'
 import LoginForm from './src/components/LoginForm'
 import ContactListScreen from './src/components/screen/Contact/ContactListScreen'
 import Grid from './src/components/Grid'
+import UseEffectHook from './src/components/UseEffectHook'
 const App = () => {
   return (
-    <View>
+    <View style={{ flex: 1 }}>
       
       {/* <Text style={{fontSize: 20, }}>Muhammad Haris Khan</Text> */}
       {/* <Button title='press here' onPress={() => alert('Button pressed')} /> */}
@@ -27,8 +28,9 @@ const App = () => {
         {/* <InputText/> */}
         {/* <FlatListScreen/> */}
         {/* <SectionListScreen/> */}
-       <ContactListScreen/>
+       {/* <ContactListScreen/> */}
 {/* <Grid/> */}
+<UseEffectHook/>
     </View>
     
   )
